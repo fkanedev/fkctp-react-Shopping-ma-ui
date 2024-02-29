@@ -68,3 +68,15 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+# SOURCES
+
+**Github : [ibm-developer-skills-network/kduia-shopping-app](https://github.com/ibm-developer-skills-network/kduia-shopping-app)**
+## Coursera links :
+
+**Course : [Developing Front-End Apps with React](https://www.coursera.org/learn/developing-frontend-apps-with-react/home/week/2)**
+
+**Module : [Week 4 : Optional - Sample Project: The Shopping Application](https://www.coursera.org/learn/developing-frontend-apps-with-react/ungradedLti/hKVEB/optional-sample-project-the-shopping-application)**
+
+**Specialization : [IBM Full Stack Software Developer Professional Certificate](https://www.coursera.org/professional-certificates/ibm-full-stack-cloud-developer)**
