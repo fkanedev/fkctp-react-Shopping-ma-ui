@@ -3,7 +3,7 @@
 ![Node.js](https://img.shields.io/badge/Node.js-v14.17.0-green.svg)
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
 
-# Company's Budget Allocation App
+# Shopping App project
 This project involves developing a shopping cart expense tracker application using React.js. The main objective is to provide a user-friendly interface for adding items to a shopping cart, managing quantities, and tracking the total expenses. This project is part of my training in the [IBM Full Stack Software Developer Professional Certificate](https://www.coursera.org/professional-certificates/ibm-full-stack-cloud-developer), utilizing a [template](https://github.com/ibm-developer-skills-network/kduia-shopping-app) provided by IBM Developer Skills Network.
 
 ## Table of Contents
