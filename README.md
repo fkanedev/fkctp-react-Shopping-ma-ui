@@ -1,82 +1,135 @@
-# Getting Started with Create React App
+![React](https://img.shields.io/badge/React-v17.0.2-blue.svg)
+![Bootstrap](https://img.shields.io/badge/Bootstrap-v5.2.2-purple.svg)
+![Node.js](https://img.shields.io/badge/Node.js-v14.17.0-green.svg)
+![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Company's Budget Allocation App
+This project involves developing a shopping cart expense tracker application using React.js. The main objective is to provide a user-friendly interface for adding items to a shopping cart, managing quantities, and tracking the total expenses. This project is part of my training in the [IBM Full Stack Software Developer Professional Certificate](https://www.coursera.org/professional-certificates/ibm-full-stack-cloud-developer), utilizing a [template](https://github.com/ibm-developer-skills-network/kduia-shopping-app) provided by IBM Developer Skills Network.
 
-## Available Scripts
+## Table of Contents
+1. [Introduction](#introduction)
+2. [Technologies Used](#technologies-used)
+3. [Installation and Configuration](#installation-and-configuration)
+4. [Usage](#usage)
+5. [Development](#development)
+6. [Sources](#sources)
+7. [License](#license)
+8. [Contact](#contact)
 
-In the project directory, you can run:
+## 1. Introduction <a name="introduction"></a>
 
-### `npm start`
+### Project Objective:
+The main objective of this project is to create a user-friendly expense tracking application that allows users to manage their shopping cart by adding, editing, and removing items, as well as tracking the total expenses. This project uses React.js to build an interactive interface and leverages the context API for state management.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### Key Features:
+- Add, edit, and delete items in the shopping cart.
+- Track total expenses.
+- Dynamic adjustment of budget and currency settings.
+- User-friendly interface with responsive design.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 2. Technologies Used <a name="technologies-used"></a>
 
-### `npm test`
+### Programming Languages:
+- JavaScript
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Tools and Frameworks:
+- React.js: A JavaScript library for building user interfaces.
+- Bootstrap: A CSS framework for developing responsive and modern web applications.
 
-### `npm run build`
+## 3. Installation and Configuration <a name="installation-and-configuration"></a>
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Prerequisites:
+- Node.js and npm installed on your system.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Installation Steps:
+1. Clone the GitHub repository:
+    ```bash
+    git clone https://github.com/fkanedev/fkctp-react-Shopping-ma-ui
+    cd fkctp-react-Shopping-ma-ui
+    ```
+2. Install the dependencies:
+    ```bash
+    npm install
+    ```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Environment Configuration:
+No specific environment configuration is needed for this project.
 
-### `npm run eject`
+## 4. Usage <a name="usage"></a>
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### Running the Application:
+To start the application, use the following command:
+```bash
+npm start
+```
+### Use Case Examples:
+- Add a new item to the shopping cart.
+- Edit the quantity of an existing item in the shopping cart.
+- Remove an item from the shopping cart.
+- Track the total cost of items in the cart.
+- Change the currency setting.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## 5. Development <a name="development"></a>
+Project Structure:
+The frontend project is organized around the React framework. The directory structure includes the following folders:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+- src/: Contains the core of the application.
+  - components/: Contains the React components.
+  - context/: Contains context providers for state management.
+  - App.js: Main entry point of the application.
+  - index.js: Entry point for React rendering.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+```plaintext
+.
+├── src/
+│   ├── components/
+│   │   ├── CartValue.js
+│   │   ├── ExpenseItem.js
+│   │   ├── ExpenseList.js
+│   │   ├── ItemSelected.js
+│   │   ├── Location.js
+│   ├── context/
+│   │   ├── AppContext.js
+│   ├── App.js
+│   ├── index.js
+│   └── ...
+├── package.json
+├── LICENSE
+├── README.md
+└── ...
+```
 
-## Learn More
+It's organized with a component-based structure using React.js and Context API for state management. The main components include:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- **CartValue.js**: Calculates and displays the total value of items in the shopping cart based on quantity and unit price.
+- **ExpenseItem.js**: Renders a single item in the expense list, allowing users to view, edit, and delete each item.
+- **ExpenseList.js**: Displays a table listing all items in the expense list, using ExpenseItem.js for each row.
+- **ItemSelected.js**: Provides a form interface for users to add or reduce quantities of selected items in the expense list.
+- **Location.js**: Allows users to select and change the currency location for displaying item prices.
+- **App.js**: The main application component that integrates all the other components.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## 6. Sources <a name="sources"></a>
 
-### Code Splitting
+- **Template: [IBM Developer Skills Network - Shopping app template](https://github.com/ibm-developer-skills-network/kduia-shopping-app)**
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+- **Useful links**:
+  - **[Create React App](https://github.com/facebook/create-react-app)**
+  - **[Developing Front-End Apps with React](https://www.coursera.org/learn/developing-frontend-apps-with-react/home/week/1)**
+  - **[IBM Full Stack Software Developer Professional Certificate](https://www.coursera.org/professional-certificates/ibm-full-stack-cloud-developer)**
 
-### Analyzing the Bundle Size
+## 7. License <a name="license"></a>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+This project is licensed under the MIT License - see the [LICENSE](/LICENSE) file for details.
 
-### Making a Progressive Web App
+## 8. Contact <a name="contact"></a>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+### Contact Information :
 
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- Send me email : **fkanecloudtech@gmail.com**
+- Connect with me on [LinkedIn](https://www.linkedin.com/in/your-profile/)
+- Visit my [portfolio](https://yourname.github.io) to explore my projects and services.
 
 
-# SOURCES
+### Contribution and Support :
 
-**Github : [ibm-developer-skills-network/kduia-shopping-app](https://github.com/ibm-developer-skills-network/kduia-shopping-app)**
-## Coursera links :
-
-**Course : [Developing Front-End Apps with React](https://www.coursera.org/learn/developing-frontend-apps-with-react/home/week/2)**
-
-**Module : [Week 4 : Optional - Sample Project: The Shopping Application](https://www.coursera.org/learn/developing-frontend-apps-with-react/ungradedLti/hKVEB/optional-sample-project-the-shopping-application)**
-
-**Specialization : [IBM Full Stack Software Developer Professional Certificate](https://www.coursera.org/professional-certificates/ibm-full-stack-cloud-developer)**
+Contributions are welcome. Please refer to the [CONTRIBUTING](/CONTRIBUTING) file for more information on how to contribute.
