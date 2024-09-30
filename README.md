@@ -6,6 +6,10 @@
 # Shopping App project
 This project involves developing a shopping cart expense tracker application using React.js. The main objective is to provide a user-friendly interface for adding items to a shopping cart, managing quantities, and tracking the total expenses. This project is part of my training in the [IBM Full Stack Software Developer Professional Certificate](https://www.coursera.org/professional-certificates/ibm-full-stack-cloud-developer), utilizing a [template](https://github.com/ibm-developer-skills-network/kduia-shopping-app) provided by IBM Developer Skills Network.
 
+# Topics
+
+`React`, `Bootstrap`, `Node.js`, `Shopping Cart`, `Expense Tracker`, `Context API`, `CRUD`, `JavaScript`, `MIT License`, `IBM Full Stack Software Developer Professional Certificate`
+
 ## Table of Contents
 1. [Introduction](#introduction)
 2. [Technologies Used](#technologies-used)
